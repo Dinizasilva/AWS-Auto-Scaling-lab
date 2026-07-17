@@ -19,6 +19,6 @@ O objetivo foi criar um ambiente capaz de escalar horizontalmente de forma autom
 
 ## 📊 Resultados
 O sistema demonstrou capacidade de *Scale-Out* (adição de instâncias) em menos de 5 minutos após a detecção de alta carga, garantindo que a aplicação permanecesse disponível e performática.
-
+![Arquitetura da Solução](Gemini_Generated_Image_v95dtkv95dtkv95d.png)
 ---
 *Este laboratório faz parte da minha jornada de aprendizado em AWS Cloud Computing.*
