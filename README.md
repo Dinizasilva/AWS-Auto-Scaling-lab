@@ -75,20 +75,20 @@ Health Check passou. O loop parou.
 
 ## O stress test
 
-# Instalei o stress
+## Instalei o stress
 sudo amazon-linux-extras install epel -y
 sudo yum install stress -y
 
-# Mandei ver na CPU
+## Mandei ver na CPU
 sudo stress --cpu 2 --timeout 300
 Depois que funcionou, hora de ver se escala mesmo.
 Entrei numa das instâncias e rodei:
 
-# Instalei o stress
+## Instalei o stress
 sudo amazon-linux-extras install epel -y
 sudo yum install stress -y
 
-# Mandei ver na CPU
+## Mandei ver na CPU
 sudo stress --cpu 2 --timeout 300
 
 Fui no CloudWatch e fiquei olhando o gráfico de CPU subir.
