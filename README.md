@@ -1,6 +1,30 @@
-# AWS Auto Scaling: Elasticidade e Alta Disponibilidade
+##  AWS Auto Scaling Lab
+Configurei um ASG pra escalar sozinho. Ele escalou. E escalou. E escalou. E destruiu tudo em loop.
+Depois eu descobri que o Health Check falhava porque as instâncias estavam em subnet privada sem NAT Gateway.
+
+
+<div align="center">
+https://aws.amazon.com/
+https://aws.amazon.com/ec2/
+https://aws.amazon.com/cloudwatch/
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/
+https://aws.amazon.com/sns/
+https://aws.amazon.com/eventbridge/
+https://aws.amazon.com/config/
+https://aws.amazon.com/iam/
+</div>
+
+
+## O que é isso
+
+Lab prático de Auto Scaling Group (ASG) com Application Load Balancer (ALB) na AWS. O objetivo era montar uma arquitetura que escala horizontalmente sozinha quando a CPU sobe, e distribui tráfego entre duas Availability Zones.
+Região: us-west-2 (AZs: us-west-2a e us-west-2b)
+Na teoria: carga sobe → CloudWatch dispara → ASG cria instâncias → ALB distribui → todo mundo feliz.
+Na prática: eu passei 20 minutos vendo instâncias nascerem e morrerem sem parar.
 
 Este repositório documenta um laboratório prático focado na implementação de arquiteturas resilientes na AWS usando **Auto Scaling Groups (ASG)** e **Elastic Load Balancing (ELB)**.
+
+
 
 ## 🏗️ Arquitetura do Projeto
 O objetivo foi criar um ambiente capaz de escalar horizontalmente de forma automática com base na utilização de CPU.
