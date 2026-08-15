@@ -51,6 +51,12 @@ Health Check: ELB (não EC2)
 
 Distribuí entre as subnets públicas das duas AZs. Ou pelo menos foi o que eu achei que tinha feito.
 
+
+<p align="center">
+  <img src="./auto-scaling-lab-console.png" alt="Dashboard do Auto Scaling Group na AWS" width="700px" />
+</p>
+
+
 ## O que deu errado (e foi o melhor aprendizado)
 
 Subi o ASG. As duas instâncias iniciais entraram. Fui no ALB... Target Group vazia. Nenhuma instância saudável.
