@@ -2,6 +2,9 @@
 Configurei um ASG pra escalar sozinho. Ele escalou. E escalou. E escalou. E destruiu tudo em loop.
 Depois eu descobri que o Health Check falhava porque as instâncias estavam em subnet privada sem NAT Gateway.
 
+<p align="center">
+  <img src="./nome-da-sua-imagem.jpg" alt="Diagrama de Arquitetura Auto Scaling" width="700px" />
+</p>
 
 <div align="center">
 https://aws.amazon.com/
