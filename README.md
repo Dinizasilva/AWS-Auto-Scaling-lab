@@ -127,6 +127,11 @@ VPC / Subnets — isolamento e distribuição (e dor de cabeça)
 Security Groups — controle de tráfego
 
 
+<p align="center">
+  <img src="./aws-cloud-architecture-study.png" alt="Ambiente de estudo focado em arquitetura AWS" width="700px" />
+</p>
+
+
 ## O que esse lab realmente me ensinou
 
 Subnet importa. Privada vs pública não é só "segurança". Se o ALB não alcança ou o Health Check não volta, seu ASG vira um gatilho automático de destruição.
