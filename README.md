@@ -140,7 +140,7 @@ Health Check é a alma. ASG sem Health Check funcionando é como carro sem freio
 CloudWatch é seu olho. Sem o gráfico de CPU, eu não saberia nem se o stress funcionou. Com ele, eu vi a escalada acontecer em tempo real.
 Golden AMI economiza vida. Configurar a instância na mão toda vez? Nunca mais. AMI + Launch Template = consistência.
 
-### 🚧 Status
+### Status
 
 [x] Lab concluído
 [x] Loop de pânico documentado
@@ -149,7 +149,8 @@ Golden AMI economiza vida. Configurar a instância na mão toda vez? Nunca mais.
 [ ] Refazer em Terraform (em breve)
 
 
-Contato
+### Contato
+
 💼 LinkedIn: linkedin.com/in/eliana-diniz
 📧 E-mail: eliana.dinizsilva@gmail.com
 "Pensei que o difícil seria fazer escalar. O difícil foi fazer parar de matar as instâncias."
